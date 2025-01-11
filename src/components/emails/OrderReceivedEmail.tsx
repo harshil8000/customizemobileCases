@@ -26,7 +26,7 @@ const OrderReceivedEmail = ({
   const baseUrl =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000'
-      : 'https://casecobra.vercel.app'
+      : 'https://MymobileCase.vercel.app'
 
   return (
     <Html>
@@ -90,7 +90,7 @@ const OrderReceivedEmail = ({
             </Row>
             <Row>
               <Text style={footer.text}>
-                © CaseCobra, Inc. All Rights Reserved.
+                © MymobileCase, Inc. All Rights Reserved.
               </Text>
             </Row>
           </Section>
