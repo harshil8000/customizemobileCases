@@ -39,6 +39,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
     totalPrice += PRODUCT_PRICES.material.polycarbonate
   if (finish === 'textured') totalPrice += PRODUCT_PRICES.finish.textured
 
+  
   const { mutate: createPaymentSession } = useMutation({
     mutationKey: ['get-checkout-session'],
     mutationFn: createCheckoutSession,
