@@ -18,6 +18,7 @@ const Page = async ({ searchParams }: PageProps) => {
   const configuration = await db.configuration.findUnique({
     where: { id },
   })
+  
 
   if(!configuration) {
     return notFound()
