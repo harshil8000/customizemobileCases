@@ -15,6 +15,7 @@ export const formatPrice = (price: number) => {
   return formatter.format(price)
 }
 
+
 export function constructMetadata({
   title = 'MymobileCase - custom high-quality phone cases',
   description = 'Create custom high-quality phone cases in seconds',
